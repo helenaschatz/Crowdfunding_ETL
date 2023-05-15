@@ -15,7 +15,7 @@ SELECT * FROM category;
 
 CREATE TABLE subcategory (
     subcategory_id VARCHAR(10)   NOT NULL,
-    subgetegory VARCHAR(50)   NOT NULL,
+    subcategory VARCHAR(50)   NOT NULL,
     PRIMARY KEY (subcategory_id)
 );
 SELECT * FROM subcategory;
