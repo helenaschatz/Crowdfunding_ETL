@@ -23,6 +23,26 @@ For the project we used following datasets:
 - contacts.xlsx
 - crowdfunding.xlsx
 
+## Outcome
+
+Exported DataFrames:
+
+1. Category and Subcategory DataFrames
+   - category.csv
+   - subcategory.csv
+
+2. Campaign DataFrame
+   - campaign.csv
+
+3. Contacts DataFrame
+   - contacts.csv
+ 
+4. Crowdfunding Database
+   - crowdfunding_erd.png
+   - crowdfunding_db_schema.sql
+   - crowdfunding_db.sql
+
+
 
 
 
@@ -33,15 +53,19 @@ For the project we used following datasets:
 - Pandas
 - PostgreSQL
 - Jupyter Notebook
+- QuickDBD 
 - Excel
+- json
+- datetime
+- numpy
 
 
 
 
 ## Team Members:
 
-- Helena Fedorenko
-- Jason Barbagallo
-- Xing Ying Chen
-- Nancy Santiago
-- Anthony Parry
+Helena Fedorenko  
+Jason Barbagallo  
+Xing Ying Chen  
+Nancy Santiago  
+Anthony Parry 
