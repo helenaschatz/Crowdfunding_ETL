@@ -53,7 +53,7 @@ Exported DataFrames:
 - Pandas
 - PostgreSQL
 - Jupyter Notebook
-- QuickDBD 
+- [QuickDBD](https://www.quickdatabasediagrams.com)
 - Excel
 - json
 - datetime
@@ -64,8 +64,8 @@ Exported DataFrames:
 
 ## Team Members:
 
-Helena Fedorenko  
-Jason Barbagallo  
-Xing Ying Chen  
-Nancy Santiago  
-Anthony Parry 
+[Helena Fedorenko](https://github.com/olenafedorenko)   
+[Jason Barbagallo](https://github.com/jbarbs44)   
+[Xing Ying Chen](https://github.com/xc1614)    
+[Nancy Santiago](https://github.com/nancyrsantiago)    
+[Anthony Parry](https://github.com/aparry6) 
