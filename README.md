@@ -35,6 +35,21 @@ For the project we used following datasets:
 - contacts.xlsx
 - crowdfunding.xlsx
 
+## How to Run
+- In order to run our analysis, first select Python Environment (Python 3.9.13) in Jupyter Notebook. 
+- Select "Run All" in `ETL_Mini_Project.ipynb` file, which will Extract, Transform data, and Create CSV files.
+  - All CSV files will be located in Resources folder.
+  
+- Set up a PostgreSQL server to create a new database called `crowdfunding_db`.
+- In `Crowdfunding DB folder`, use provided `crowdfunding_db_schema.sql` file to create tables in PostgreSQL `crowdfunding_db` database.
+  - Import each CSV file into its corresponding SQL table in the following order: _category, subcategory, contacts, and campaign._
+  - Query the database to verify the data has been loaded correctly, by running a `SELECT` statement for each.
+
+
+
+
+
+
 ## Outcome
 
 Exported DataFrames:
