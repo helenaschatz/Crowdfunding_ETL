@@ -3,6 +3,8 @@
 
 A collaborative project to build an ETL pipeline using Python, Pandas, and PostgreSQL for extracting, transforming, and loading crowdfunding data from Excel files into a relational database.
 
+   ETL (Extract, Transform and Load) data processing is an automated procedure that extracts relevant information from raw data, converts it into a format that fulfills business requirements and loads it into a target system.
+
 <p align="center">
 <img width="700" align="center" src="https://images.ctfassets.net/zczdrsyzzo2x/2mQoxHDVhC0SEGQMOQO84K/0a42e2029305130e7a9fda723c017878/animation_2.gif" alt="demo"/>
 </p>
@@ -27,7 +29,7 @@ A collaborative project to build an ETL pipeline using Python, Pandas, and Postg
 - Design an ERD and table schema for the database
 - Create and populate PostgreSQL database tables
 
-## Data:
+## Data
 For the project we used following datasets: 
 
 - contacts.xlsx
@@ -57,7 +59,7 @@ Exported DataFrames:
 
 
 
-## Built With
+## Resources and Libraries
 
 - Python
 - Pandas
