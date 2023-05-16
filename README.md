@@ -15,7 +15,7 @@ A collaborative project to build an ETL pipeline using Python, Pandas, and Postg
 
 
 
-## Introduction:
+## Introduction
 
 1. Create the Category and Subcategory DataFrames
 2. Create the Campaign DataFrame
