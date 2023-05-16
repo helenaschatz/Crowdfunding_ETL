@@ -1,5 +1,15 @@
-# Crowdfunding_ETL
+<h1 align="center">Crowdfunding ETL (Extract, Transform, Load) </h1>
+<p align="center">
+
 A collaborative project to build an ETL pipeline using Python, Pandas, and PostgreSQL for extracting, transforming, and loading crowdfunding data from Excel files into a relational database.
+
+<p align="center">
+<img width="700" align="center" src="https://images.ctfassets.net/zczdrsyzzo2x/2mQoxHDVhC0SEGQMOQO84K/0a42e2029305130e7a9fda723c017878/animation_2.gif" alt="demo"/>
+</p>
+
+
+
+
 
 
 
