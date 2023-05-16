@@ -30,10 +30,20 @@ A collaborative project to build an ETL pipeline using Python, Pandas, and Postg
 - Create and populate PostgreSQL database tables
 
 ## Data
-For the project we used following datasets: 
 
-- contacts.xlsx
-- crowdfunding.xlsx
+1. For our analysis, we have extracted and transformed data from the following datasets available in the `Resources` folder.      
+     - contacts.xlsx      
+     - crowdfunding.xlsx 
+
+2. Then, we loaded our transformed data into `crowdfunding_db` PostgreSQL database.
+     - category.csv  
+     - subcategory.csv  
+     - contacts.csv   
+     - campaign.csv  
+
+
+
+
 
 ## How to Run
 - In order to run our analysis, first select Python Environment (Python 3.9.13) in Jupyter Notebook. 
@@ -46,28 +56,17 @@ For the project we used following datasets:
   - Query the database to verify the data has been loaded correctly, by running a `SELECT` statement for each.
 
 
+<p align="center">
+<img width="700" align="center" src="https://github.com/olenafedorenko/Crowdfunding_ETL/blob/main/Crowdfunding%20DB/crowdfunding_erd.png?raw=true" alt="demo"/>
+</p>
 
 
 
 
 ## Outcome
 
-Exported DataFrames:
+We showcased an ETL pipeline utilizing Python, Pandas, and a combination of both Python dictionary and regular expression techniques for data extraction and transformation. We then generated four CSV files, used the data in these files to design an ERD and table schema, and loaded the data into a Postgres database from the CSV files via dataframes.
 
-1. Category and Subcategory DataFrames
-   - category.csv
-   - subcategory.csv
-
-2. Campaign DataFrame
-   - campaign.csv
-
-3. Contacts DataFrame
-   - contacts.csv
- 
-4. Crowdfunding Database
-   - crowdfunding_erd.png
-   - crowdfunding_db_schema.sql
-   - crowdfunding_db.sql
 
 
 
@@ -76,15 +75,11 @@ Exported DataFrames:
 
 ## Resources and Libraries
 
-- Python
-- Pandas
-- PostgreSQL
-- Jupyter Notebook
-- [QuickDBD](https://www.quickdatabasediagrams.com)
-- Excel
-- json
-- datetime
-- numpy
+
+| Programming Languages |        Database      |      Libraries        |        Software       |
+| :---------------------: |:--------------------: | --------------------- | ---------------------: |
+| Python <img width="22" align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="demo"/> | PostgreSQL<img width="40" align="center" src="https://download.logo.wine/logo/PostgreSQL/PostgreSQL-Logo.wine.png" alt="demo"/> | Pandas <img width="25" align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pandas_mark.svg/1535px-Pandas_mark.svg.png" alt="demo"/> | [QuickDBD](https://www.quickdatabasediagrams.com) <img width="25" align="center" src="https://pbs.twimg.com/profile_images/822034379736236033/SjcdL7KR_400x400.jpg" alt="demo"/> |
+|                       |                       | numpy  <img width="20" align="center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFBoiMnTbYso1djdegUqL541UPN5Rqfb-SnmmWf4W1MkLCgAG1Ssnm-swHVDRib3POV2s&usqp=CAU" alt="demo"/>   |  Jupyter Notebook <img width="20" align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png" alt="demo"/> |
 
 
 
