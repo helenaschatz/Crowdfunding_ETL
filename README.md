@@ -78,10 +78,10 @@ In this project, we have demonstrated the ETL pipeline utilizing Python, Pandas,
 ## Resources and Libraries
 
 
-| Programming Languages |        Database      |      Libraries        |        Software       |
-| :---------------------: |:--------------------: | --------------------- | ---------------------: |
-| Python <img width="22" align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="demo"/> | PostgreSQL<img width="40" align="center" src="https://download.logo.wine/logo/PostgreSQL/PostgreSQL-Logo.wine.png" alt="demo"/> | Pandas <img width="25" align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pandas_mark.svg/1535px-Pandas_mark.svg.png" alt="demo"/> | [QuickDBD](https://www.quickdatabasediagrams.com) <img width="25" align="center" src="https://pbs.twimg.com/profile_images/822034379736236033/SjcdL7KR_400x400.jpg" alt="demo"/> |
-|                       |                       | numpy  <img width="20" align="center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFBoiMnTbYso1djdegUqL541UPN5Rqfb-SnmmWf4W1MkLCgAG1Ssnm-swHVDRib3POV2s&usqp=CAU" alt="demo"/>   |  Jupyter Notebook <img width="20" align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png" alt="demo"/> |
+| Programming Languages |        Database      |      Libraries        |        Software       | Modules |
+| :---------------------: |:--------------------: | --------------------- | ---------------------: | -----------: |
+| Python <img width="22" align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="demo"/> | PostgreSQL<img width="40" align="center" src="https://download.logo.wine/logo/PostgreSQL/PostgreSQL-Logo.wine.png" alt="demo"/> | Pandas <img width="25" align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pandas_mark.svg/1535px-Pandas_mark.svg.png" alt="demo"/> | [QuickDBD](https://www.quickdatabasediagrams.com) <img width="25" align="center" src="https://pbs.twimg.com/profile_images/822034379736236033/SjcdL7KR_400x400.jpg" alt="demo"/> | datetime as dt |
+|                       |                       | numpy  <img width="20" align="center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFBoiMnTbYso1djdegUqL541UPN5Rqfb-SnmmWf4W1MkLCgAG1Ssnm-swHVDRib3POV2s&usqp=CAU" alt="demo"/>   |  Jupyter Notebook <img width="20" align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png" alt="demo"/> |pretty-print as pprint |
 
 
 
