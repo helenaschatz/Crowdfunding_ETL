@@ -32,24 +32,25 @@ CREATE TABLE "campaign" (
     "launched_date" DATE   NOT NULL,
     "end_date" DATE   NOT NULL,
     "category_id" VARCHAR(10)   NOT NULL,
-    "subcategory_id" VARCHAR(50)   NOT NULL
+    "subcategory_id" VARCHAR(50)   NOT NULL,
+    CONSTRAINT "pk_campaign" PRIMARY KEY (
+        "contact_id"
+     )
 );
 
 CREATE TABLE "contacts" (
     "contact_id" INT   NOT NULL,
     "first_name" VARCHAR(50)   NOT NULL,
     "last_name" VARCHAR(50)   NOT NULL,
-    "email" VARCHAR(100)   NOT NULL,
-    CONSTRAINT "pk_contacts" PRIMARY KEY (
-        "contact_id"
-     )
+    "email" VARCHAR(100)   NOT NULL
 );
-
-ALTER TABLE "campaign" ADD CONSTRAINT "fk_campaign_contact_id" FOREIGN KEY("contact_id")
-REFERENCES "contacts" ("contact_id");
 
 ALTER TABLE "campaign" ADD CONSTRAINT "fk_campaign_category_id" FOREIGN KEY("category_id")
 REFERENCES "category" ("category_id");
 
 ALTER TABLE "campaign" ADD CONSTRAINT "fk_campaign_subcategory_id" FOREIGN KEY("subcategory_id")
 REFERENCES "subcategory" ("subcategory_id");
+
+ALTER TABLE "contacts" ADD CONSTRAINT "fk_contacts_contact_id" FOREIGN KEY("contact_id")
+REFERENCES "campaign" ("contact_id");
+
