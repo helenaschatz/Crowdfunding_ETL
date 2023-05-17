@@ -27,7 +27,7 @@ CREATE TABLE contacts (
     first_name VARCHAR(50)   NOT NULL,
     last_name VARCHAR(50)   NOT NULL,
     email VARCHAR(100)   NOT NULL,
-    PRIMARY KEY (contact_id)
+    FOREIGN KEY (contact_id) REFERENCES campaign(contact_id)
 );
 
 SELECT * FROM contacts;
@@ -45,12 +45,12 @@ CREATE TABLE campaign (
     backers_count INT NOT NULL,
     country VARCHAR(10) NOT NULL,
     currency VARCHAR(10) NOT NULL,
-    launched_date DATE NOT NULL,
+    launch_date DATE NOT NULL,
     end_date DATE NOT NULL,
     category_id VARCHAR(10) NOT NULL,
     subcategory_id VARCHAR(50) NOT NULL,
-    FOREIGN KEY (contact_id) REFERENCES contacts(contact_id),
-    FOREIGN KEY (category_id) REFERENCES category(category_id),
+	PRIMARY KEY (contact_id),
+ 	FOREIGN KEY (category_id) REFERENCES category(category_id),
     FOREIGN KEY (subcategory_id) REFERENCES subcategory(subcategory_id)
 );
 
