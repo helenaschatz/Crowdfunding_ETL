@@ -50,9 +50,10 @@ The instructions for this mini project are divided into the following subsection
 ## How to Run
 
 - Clone the repository.
+- Install [PostgresSQL](https://www.postgresql.org/download/)
 - Install required Python packages: `pandas`, `numpy` and `openpyxl`.
 - In order to run our analysis, first select `Python Environment (Python 3.9.13)` in Jupyter Notebook. 
-- Select "Run All" in `ETL_Mini_Project.ipynb` file, which will Extract, Transform data, and Create CSV files.
+- Select _"Run All"_ in `ETL_Mini_Project.ipynb` file, which will Extract, Transform data, and Create CSV files.
   - All CSV files will be located in Resources folder.
   
 - Set up a PostgreSQL server to create a new database called `crowdfunding_db`.
