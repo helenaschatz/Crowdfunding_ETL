@@ -48,7 +48,10 @@ The instructions for this mini project are divided into the following subsection
 
 
 ## How to Run
-- In order to run our analysis, first select Python Environment (Python 3.9.13) in Jupyter Notebook. 
+
+- Clone the repository.
+- Install required Python packages: `pandas`, `numpy` and `openpyxl`.
+- In order to run our analysis, first select `Python Environment (Python 3.9.13)` in Jupyter Notebook. 
 - Select "Run All" in `ETL_Mini_Project.ipynb` file, which will Extract, Transform data, and Create CSV files.
   - All CSV files will be located in Resources folder.
   
@@ -56,6 +59,7 @@ The instructions for this mini project are divided into the following subsection
 - In `Crowdfunding DB folder`, use provided `crowdfunding_db_schema.sql` file to create tables in PostgreSQL `crowdfunding_db` database.
   - Import each CSV file into its corresponding SQL table in the following order: _category, subcategory, contacts, and campaign._
   - Query the database to verify the data has been loaded correctly, by running a `SELECT` statement for each.
+
 
 
 <p align="center">
